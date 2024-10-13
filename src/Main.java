@@ -4,30 +4,60 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("input symbol: ");
-        char symbol = scanner.next().charAt(0);
+//        System.out.println("input number: ");
+//        int number = scanner.nextInt();
+//
+//        if (number % 2 == 0) {
+//            System.out.println("chetnoe number");
+//        } else {
+//            System.out.println("NEchetnoe number");
+//        }
 
-        if (symbol >= 'a' && symbol <= 'z' || symbol >= 'A' && symbol <= 'Z') {
-            System.out.print("it's letter ");
+        int res = 5 / 2; //2
+        double res2 = 5 / 2; //2.0
 
-            if (symbol >= 'a' && symbol <= 'z') {
-                System.out.println("small");
-            } else {
-                System.out.println("big");
-            }
-        } else {
-            System.out.println("unknown symbols");
-        }
+        double a = 5, b = 2;
+        double res3 = a / b; //2.5
 
-        if (symbol >= 'a' && symbol <= 'z') {
-            System.out.print("it's letter small");
-        } else if (symbol >= 'A' && symbol <= 'Z') {
-            System.out.print("it's letter big");
-        } else {
-            System.out.println("unknown symbols");
-        }
+        double res4 = (double) 5 / 2;
 
-        System.out.println(String.format("symbol code is %d", (int) symbol));
+        int aa = 5, bb = 2;
+        double res5 = (double) aa / bb;
+
+        double xxx = 3.67195476125476325476;
+
+        System.out.println(String.format("%.3f", xxx));
+
+        aa = aa + 7;
+        aa--;
+        aa *= 7;
+
+        aa = -aa;
+
+//        System.out.println("input symbol: ");
+//        char symbol = scanner.next().charAt(0);
+//
+//        if (symbol >= 'a' && symbol <= 'z' || symbol >= 'A' && symbol <= 'Z') {
+//            System.out.print("it's letter ");
+//
+//            if (symbol >= 'a' && symbol <= 'z') {
+//                System.out.println("small");
+//            } else {
+//                System.out.println("big");
+//            }
+//        } else {
+//            System.out.println("unknown symbols");
+//        }
+//
+//        if (symbol >= 'a' && symbol <= 'z') {
+//            System.out.print("it's letter small");
+//        } else if (symbol >= 'A' && symbol <= 'Z') {
+//            System.out.print("it's letter big");
+//        } else {
+//            System.out.println("unknown symbols");
+//        }
+//
+//        System.out.println(String.format("symbol code is %d", (int) symbol));
 
 //        double kawaiIndex;
 //
